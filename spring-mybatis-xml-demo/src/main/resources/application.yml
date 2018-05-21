@@ -37,6 +37,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.example.demo.model
+  config-location: classpath:mybatis-cfg.xml
 
 #pagehelper
 pagehelper:
